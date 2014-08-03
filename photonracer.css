@@ -1,0 +1,92 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-attribute	{ color: #cab0ff; }
+span.cm-builtin     { color: #cab0ff; }
+span.cm-def			{ color: #cab0ff; }
+span.cm-header      { color: #cab0ff; }
+span.cm-keyword		{ color: #cab0ff; }
+span.cm-operator	{ color: #cab0ff; }
+span.cm-qualifier	{ color: #cab0ff; }
+
+span.cm-variable	{ color: #ffc429; }
+span.cm-variable-2	{ color: #ffc429; }
+span.cm-variable-3	{ color: #ffc429; }
+
+span.cm-bracket		{ color: #6097b9; }
+span.cm-tag			{ color: #6097b9; }
+
+span.cm-meta		{ color: #f7f7f7; }
+span.cm-property	{ color: #f7f7f7; }
+
+span.cm-atom		{ color: #65e200; }
+span.cm-number		{ color: #65e200; }
+
+span.cm-link		{ color: #00d7ff; }
+span.cm-string		{ color: #00d7ff; }
+span.cm-string-2    { color: #00d7ff; }
+
+span.cm-comment		{ color: #46668d; }
+span.cm-error		{ color: #ff7fff; }
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+	background: #161c24;
+	color: #f7f7f7;
+}
+
+.CodeMirror-cursor {
+	border-left: 2px solid #ff6c00 !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 2px solid #76f708 !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #161c24;
+	border-right: 0;
+}
+
+.CodeMirror-linenumber {
+	color: #3d4855;
+}
+
+.CodeMirror-selected {
+	background: #3e10bc !important;
+}
+
+/* Matching */
+
+.CodeMirror-matchingbracket {
+    background: transparent !important;
+	border-bottom: 2px solid #ff8000 !important;
+    color: #656569 !important;
+}
+
+.CodeMirror-matchingtag {
+    background: transparent !important;
+	border-bottom: 2px solid #ff8000 !important;
+}
+
+/* Active Line */
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #ff7fff !important;
+}
+
+.CodeMirror-activeline-background {
+	background: #000 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #fff;
+	background-color: #161c24 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+	color: #f7f7f7;
+}

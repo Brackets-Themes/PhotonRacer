@@ -64,7 +64,7 @@ span.cm-error		{ color: #ff7fff; }
 .CodeMirror-matchingbracket {
     background: transparent !important;
 	border-bottom: 2px solid #ff8000 !important;
-    color: #656569 !important;
+    color: #f7f7f7 !important;
 }
 
 .CodeMirror-matchingtag {

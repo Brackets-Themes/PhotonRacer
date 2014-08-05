@@ -5,7 +5,6 @@ span.cm-builtin     { color: #cab0ff; }
 span.cm-def			{ color: #cab0ff; }
 span.cm-header      { color: #cab0ff; }
 span.cm-keyword		{ color: #cab0ff; }
-span.cm-operator	{ color: #cab0ff; }
 span.cm-qualifier	{ color: #cab0ff; }
 
 span.cm-variable	{ color: #ffc429; }
@@ -16,14 +15,15 @@ span.cm-bracket		{ color: #6097b9; }
 span.cm-tag			{ color: #6097b9; }
 
 span.cm-meta		{ color: #f7f7f7; }
+span.cm-operator	{ color: #ffffff; }
 span.cm-property	{ color: #f7f7f7; }
 
-span.cm-atom		{ color: #65e200; }
-span.cm-number		{ color: #65e200; }
+span.cm-atom		{ color: #6cd810; }
+span.cm-number		{ color: #6cd810; }
 
-span.cm-link		{ color: #00d7ff; }
-span.cm-string		{ color: #00d7ff; }
-span.cm-string-2    { color: #00d7ff; }
+span.cm-link		{ color: #09cdf2; }
+span.cm-string		{ color: #09cdf2; }
+span.cm-string-2    { color: #09cdf2; }
 
 span.cm-comment		{ color: #46668d; }
 span.cm-error		{ color: #ff7fff; }
@@ -38,11 +38,11 @@ span.cm-error		{ color: #ff7fff; }
 }
 
 .CodeMirror-cursor {
-	border-left: 2px solid #ff6c00 !important;
+	border-left: 1px solid #ff8426 !important;
 }
 
 .CodeMirror-overwrite .CodeMirror-cursor {
-    border-bottom: 2px solid #76f708 !important;
+    border-bottom: 1px solid #ff8426 !important;
     border-left: none !important;
 }
 
@@ -57,19 +57,6 @@ span.cm-error		{ color: #ff7fff; }
 
 .CodeMirror-selected {
 	background: #3e10bc !important;
-}
-
-/* Matching */
-
-.CodeMirror-matchingbracket {
-    background: transparent !important;
-	border-bottom: 2px solid #ff8000 !important;
-    color: #f7f7f7 !important;
-}
-
-.CodeMirror-matchingtag {
-    background: transparent !important;
-	border-bottom: 2px solid #ff8000 !important;
 }
 
 /* Active Line */
@@ -87,6 +74,26 @@ span.cm-error		{ color: #ff7fff; }
 	background-color: #161c24 !important;
 }
 
-.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
-	color: #f7f7f7;
+/* Matching */
+
+.CodeMirror-matchingbracket {
+    background: transparent !important;
+	border-bottom: 3px solid #76f708 !important;
+    color: #fff !important;
+}
+
+.CodeMirror-matchingtag {
+    background: transparent !important;
+	border-bottom: 1px solid #76f708 !important;
+}
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #161c24;
+}
+
+#image-holder {
+    color: #f7f7f7;
 }

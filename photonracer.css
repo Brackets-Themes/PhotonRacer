@@ -78,13 +78,13 @@ span.cm-error		{ color: #ff7fff; }
 
 .CodeMirror-matchingbracket {
     background: transparent !important;
-	border-bottom: 3px solid #76f708 !important;
+	border-bottom: 2px solid #6cd810 !important;
     color: #fff !important;
 }
 
 .CodeMirror-matchingtag {
     background: transparent !important;
-	border-bottom: 1px solid #76f708 !important;
+	border-bottom: 1px solid #6cd810 !important;
 }
 
 /* Non-editor styling */

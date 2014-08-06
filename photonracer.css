@@ -8,8 +8,8 @@ span.cm-qualifier	{ color: #cab0ff; }
 
 span.cm-variable	{ color: #ff7537; }
 
-span.cm-variable-2	{ color: #ffd600; }
-span.cm-variable-3	{ color: #ffd600; }
+span.cm-variable-2	{ color: #f4b995; }
+span.cm-variable-3	{ color: #f4b995; }
 
 span.cm-bracket		{ color: #6097b9; }
 span.cm-tag			{ color: #6097b9; }
@@ -57,7 +57,7 @@ span.cm-keyword		{ color: #ffffff; font-weight: 700; }
 }
 
 .CodeMirror-selected {
-	background: #233d55 !important;
+	background: #25435f !important;
 }
 
 /* Active Line */

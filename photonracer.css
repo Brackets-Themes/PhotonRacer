@@ -49,11 +49,11 @@ span.cm-keyword		{ color: #ffffff; font-weight: 700; }
 
 .CodeMirror-gutters {
 	background: #161c24;
-	border-right: 0;
+	border-right: 1px solid #19283e;
 }
 
 .CodeMirror-linenumber {
-	color: #3d4855;
+	color: #425772;
 }
 
 .CodeMirror-selected {
